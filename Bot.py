@@ -9,7 +9,7 @@ start_sequence = "\nMises:"
 restart_sequence = "\n\nPerson:"
 
 
-session_prompt = "The following is a conversation between a person and Karl Marx."
+session_prompt = "The following is a conversation between a person and teacher of philosophy. He knows everything abouut philosophy."
 
 def mises(question, chat_log=None):
     prompt_text = f'{chat_log}{restart_sequence}: {question}{start_sequence}:'
